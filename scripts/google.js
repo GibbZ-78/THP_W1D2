@@ -17,7 +17,7 @@ gLinkToToggleMenu.addEventListener("click", () => {
   if(getComputedStyle(gToggleMenu).display != "none"){
     gToggleMenu.style.display = "none";
   } else {
-    gToggleMenu.style.display = "block";
+    gToggleMenu.style.display = "inline-block";
   }
 })
 

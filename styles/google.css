@@ -176,7 +176,7 @@ section {
 /* Search Section higher level */
 .gSectionSearchForm {
   border: var(--var-debug-div);
-  height: 35vh;
+  height: 25vh;
 }
 
 /* Search Container */
@@ -209,7 +209,7 @@ section {
 /* Search Input Container */
 .gSectionSearchInput {
   border: var(--var-debug-div);
-  width: 90%;
+  width: 85%;
 }
 
 /* Search Input Fild Itself */
@@ -228,8 +228,20 @@ section {
 /* Close icon - Hidden by default > Displayed when input not empty */
 .gSectionSearchClose {
   border: var(--var-debug-div);
+  border-right: 0.8px solid rgba(128, 128, 128, 0.5);
   opacity: 0%;
   width: 5%;
+}
+
+/* Mic icon*/
+.gSectionSearchVocal {
+  border: var(--var-debug-div);
+  width: 5%;
+  margin-left: 5px;
+}
+
+.gSectionSearchVocal img {
+  width: 20px;
 }
 
 /* Search buttons */
@@ -268,8 +280,19 @@ section {
 /* Empty vertical spacer sometimes used to display additional info */
 .gSectionComplementaryInfo {
   border: var(--var-debug-div);
+  font-family: arial, sans-serif;
+  color: #202124;
   display: flex;
-  height: 10vh;
+  flex-direction: column;
+  height: 20vh;
+}
+
+.gSectionComplementaryInfo a {
+  text-decoration: none;
+}
+
+.gSectionComplementaryInfo a:hover {
+  text-decoration: underline;
 }
 
 /**********/
