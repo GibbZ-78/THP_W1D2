@@ -21,7 +21,7 @@ gLinkToToggleMenu.addEventListener("click", () => {
   }
 })
 
-// Display & hide (using opacity, not da best option though) the "X" icon depending on search box being empty or not
+// Display & hide (using opacity, surely not the best option though) the "X" icon depending on search box being empty or not
 gMyInput = document.getElementById("gInputSearch");
 gMyIcon = document.getElementById("gMyCloseIcon");
 
@@ -37,8 +37,8 @@ gMyIcon.addEventListener("click", () => {
     gMyInput.value="";
 })
 
-/*********************************************/
-/*                                           */
-/*               End of code                 */
-/*                                           */
-/*********************************************/
+/********************************************/
+/*                                          */
+/*               END OF CODE                */
+/*                                          */
+/********************************************/
