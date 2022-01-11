@@ -10,4 +10,4 @@ X---------THP Développeur Hiver 22----------X
 X-------------------------------------------X
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-Rendu attendu pour le W1D2 du programme "Développeur" de THP - Clone de la page de recherche de Google-
+Rendu attendu pour le W1D2 du programme "Développeur" de THP - Clone de la page de recherche de Google.
